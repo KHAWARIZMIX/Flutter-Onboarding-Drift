@@ -115,5 +115,3 @@ lib
 [MIT](LICENSE)
 
 ---
-
-If you want, I can help you generate this as a markdown file or add badges and links!
