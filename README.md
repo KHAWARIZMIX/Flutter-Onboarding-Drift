@@ -76,12 +76,27 @@ flutter run
 ## 📁 Project Structure
 
 ```
-lib/
+lib
+├── app.dart
 ├── main.dart
-├── models/           # Drift data models & tables
-├── providers/        # Riverpod providers
-├── screens/          # Onboarding & home screens
-└── widgets/          # Reusable UI components
+├── model
+│   ├── onboarding_model.dart
+│   └── user_table.dart
+├── notifiers
+│   └── onboarding_notifire.dart
+├── providers
+│   └── provider.dart
+├── screens
+│   ├── home_screen.dart
+│   └── onboarding
+│       └── profile_setup_screen.dart
+├── services
+│   └── database.dart
+├── utility
+│   ├── date_format.dart
+│   └── image_utils.dart
+└── widgets
+    └── user_avatar.dart
 ```
 
 ---
